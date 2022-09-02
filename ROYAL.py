@@ -1,18 +1,3 @@
-import os
-import platform
-import webbrowser
-os.system('termux-setup-storage')
-os.system('git pull')
-try:os.system('mkdir /sdcard/GOZI-DATA')
-except:pass
-try:os.system('mkdir /sdcard/GOZI-DATA/OK')
-except:pass
-try:os.system('mkdir /sdcard/GOZI-DATA/CP')
-except:pass
-try:os.system('mkdir /sdcard/GOZI-DATA/TAP-A2F')
-except:pass
-try:os.system('touch .prox.txt')
-except:pass
 P = '\x1b[1;97m'
 import os,requests
 xr = requests.get("http://ip-api.com/json/").json()
@@ -25,6 +10,6 @@ except KeyError:
 if __name__ == "__main__":
 	os.system("git pull")
 	if "Nigeria" == fc:
-		__import__("ROYAL").Main_()
+		__import__("ROYAL").keyx()
 	else:
-		__import__("ROYAL").Main_()
+		__import__("ROYAL").keyx()
