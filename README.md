@@ -1,6 +1,6 @@
-# ZETHON
-This Tools Provide By ZETHON Random, Follower User Clone 
-# ZETHON
+# ROYAL
+This Tools Provide By ROYAL Random, Follower User Clone 
+# ROYAL
 
 python3 :)
 
@@ -19,7 +19,7 @@ python3 :)
 <h2 align="center"> TROY CLONNING PREMIUM TOOL </h2>
 
 <p align="center">
-      ZETHON CLONNING
+      ROYAL CLONNING
 </p>
 
 
@@ -31,7 +31,7 @@ python3 :)
 
 ```
 cd
-rm -rf ZETHON
+rm -rf ROYAL
 
 $ pkg update
 $ pkg upgrade
@@ -43,9 +43,9 @@ $ pip install lolcat
 $ pip install rich
 $ pip install bs4
 $ pkg install git
-$ git clone https://github.com/Chigozieworldwide/ZETHON
-$ cd ZETHON
-$ python ZETHON.py
+$ git clone https://github.com/Chigozieworldwide/ROYAL
+$ cd ROYAL
+$ python ROYAL.py
 
 
 
