@@ -10,6 +10,6 @@ except KeyError:
 if __name__ == "__main__":
 	os.system("git pull")
 	if "Nigeria" == fc:
-		__import__("XCARET32").chigozie()
+		__import__("test").chigozie()
 	else:
-		__import__("XCARET32").chigozie()
+		__import__("test").chigozie()
