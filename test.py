@@ -1,15 +1,10 @@
-P = '\x1b[1;97m'
-import os,requests
-xr = requests.get("http://ip-api.com/json/").json()
+import os, sys, platform,time
 try:
-	fc = xr["country"]
-except KeyError:
-	print('%s\nBAD INTERNET CONNECTION\n'%(P))
-	exit()
-
-if __name__ == "__main__":
-	os.system("git pull")
-	if "Nigeria" == fc:
-		__import__("test").chigozie()
-	else:
-		__import__("test").chigozie()
+    import requests
+except:
+    os.system('pip install requests')
+bit = platform.architecture()[0]
+if bit == '64bit':
+    os.system('clear')
+    os.system('git pull')
+    import test
